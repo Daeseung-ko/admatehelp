@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdMate Help Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo" onclick="navigate('home')">
+    <div class="nav-dot"></div>AdMate Help
+  </div>
+  <div class="nav-links" id="nav-links">
+    <button class="nav-link" data-cat="facebook" onclick="navigate('category','facebook')">📘 Facebook</button>
+    <button class="nav-link" data-cat="instagram" onclick="navigate('category','instagram')">📸 Instagram</button>
+    <button class="nav-link" data-cat="twitter" onclick="navigate('category','twitter')">🐦 X (Twitter)</button>
+    <button class="nav-link" data-cat="google" onclick="navigate('category','google')">🔍 Google Ads</button>
+    <span class="admin-badge" id="admin-badge" style="display:none">ADMIN</span>
+    <button class="btn-admin-login" id="btn-admin-login" onclick="openLoginModal()">관리자 로그인</button>
+    <button class="btn-admin-logout" id="btn-admin-logout" style="display:none" onclick="logout()">로그아웃</button>
+  </div>
+</nav>
+
+<!-- HOME PAGE -->
+<div class="page active" id="page-home">
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-badge">Help Center</div>
+    <h1>무엇을 도와드릴까요?</h1>
+    <p class="hero-sub">검색으로 원하는 답변을 빠르게 찾아보세요</p>
+    <div class="search-wrap">
+      <input type="text" id="hero-search" placeholder="예: Facebook 픽셀 설치, Google Ads 전환 추적..." autocomplete="off"
+        oninput="onHeroSearch(this.value)"
+        onkeydown="if(event.key==='Escape'){this.value='';closeSearchDropdown()}">
+      <button class="search-btn" onclick="onHeroSearch(document.getElementById('hero-search').value)">🔍</button>
+      <div class="search-dropdown" id="search-dropdown"></div>
+    </div>
+    <div class="hero-tags">
+      <span class="hero-tag-label">인기:</span>
+      <span class="hero-tag" onclick="fillHeroSearch('Facebook 픽셀')">Facebook 픽셀</span>
+      <span class="hero-tag" onclick="fillHeroSearch('Google 전환')">Google 전환</span>
+      <span class="hero-tag" onclick="fillHeroSearch('Instagram 쇼핑')">Instagram 쇼핑</span>
+      <span class="hero-tag" onclick="fillHeroSearch('X 캠페인')">X 캠페인</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div><div class="section-tag">탐색</div><div class="section-title">플랫폼별 문서 찾기</div></div>
+      <div class="section-meta" id="total-count"></div>
+    </div>
+    <div class="cat-grid" id="home-cat-grid"></div>
+  </section>
+
+  <section class="section section-gray">
+    <div class="section-header">
+      <div><div class="section-tag">인기 문서</div><div class="section-title">많이 찾는 도움말</div></div>
+    </div>
+    <div class="art-grid" id="home-art-grid"></div>
+  </section>
+
+  <section class="faq-section">
+    <div class="section-header">
+      <div><div class="section-tag">자주 묻는 질문</div><div class="section-title">FAQ</div></div>
+    </div>
+    <div class="faq-grid" id="faq-grid"></div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo"><div class="nav-dot"></div>AdMate Help</div>
+        <p class="footer-brand-desc">광고 인텔리전스 플랫폼 AdMate의 공식 도움말 센터입니다.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">플랫폼</div>
+        <div class="footer-links">
+          <button class="footer-link" onclick="navigate('category','facebook')">📘 Facebook</button>
+          <button class="footer-link" onclick="navigate('category','instagram')">📸 Instagram</button>
+          <button class="footer-link" onclick="navigate('category','twitter')">🐦 X (Twitter)</button>
+          <button class="footer-link" onclick="navigate('category','google')">🔍 Google Ads</button>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">지원 채널</div>
+        <div class="footer-links">
+          <button class="footer-link" onclick="showToast('이메일 지원 페이지로 이동합니다.')">📧 이메일 지원</button>
+          <button class="footer-link" onclick="showToast('라이브 채팅을 시작합니다.')">💬 라이브 채팅</button>
+          <button class="footer-link" onclick="showToast('커뮤니티 포럼으로 이동합니다.')">👥 커뮤니티 포럼</button>
+          <button class="footer-link" onclick="showToast('서비스 상태 페이지로 이동합니다.')">🟢 서비스 상태</button>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">티켓 제출</div>
+        <input class="ticket-input" id="t-email" type="email" placeholder="이메일 주소">
+        <select class="ticket-select" id="t-type">
+          <option value="" disabled selected>문의 유형 선택</option>
+          <option>기술 지원</option><option>계정/결제</option><option>기능 요청</option><option>버그 신고</option><option>기타</option>
+        </select>
+        <textarea class="ticket-textarea" id="t-msg" placeholder="문제를 자세히 설명해 주세요..."></textarea>
+        <button class="btn-ticket" onclick="submitTicket()">티켓 제출하기</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Nasmedia. AdMate. All rights reserved.</div>
+      <div class="footer-status"><div class="status-dot"></div>모든 시스템 정상 운영 중</div>
+    </div>
+  </footer>
+</div>
+
+<!-- CATEGORY PAGE -->
+<div class="page" id="page-category">
+  <div class="cat-page-header">
+    <div class="breadcrumb">
+      <span class="bc-link" onclick="navigate('home')">홈</span>
+      <span class="bc-sep">›</span>
+      <span class="bc-current" id="cat-bc-current"></span>
+    </div>
+    <div class="cat-page-inner">
+      <div>
+        <div class="cat-page-icon" id="cat-page-icon"></div>
+        <div class="cat-page-title" id="cat-page-title"></div>
+        <div class="cat-page-sub" id="cat-page-sub"></div>
+      </div>
+      <button class="btn-write" id="btn-write-new" style="display:none" onclick="navigate('write',currentCat)">✏️ 새 문서 작성</button>
+    </div>
+  </div>
+  <div class="cat-search-wrap">
+    <div class="cat-search-box">
+      <span class="cat-search-icon">🔍</span>
+      <input class="cat-search" id="cat-search-input" type="text" placeholder="문서 검색..." oninput="renderCategoryArticles()">
+    </div>
+  </div>
+  <div class="section" style="padding-top:28px">
+    <div class="art-grid" id="cat-art-grid"></div>
+    <div class="empty-state" id="cat-empty" style="display:none">
+      <div class="empty-icon">🔍</div>
+      <h3>검색 결과가 없습니다</h3>
+      <p>다른 키워드로 검색해 보세요</p>
+    </div>
+  </div>
+</div>
+
+<!-- ARTICLE PAGE -->
+<div class="page" id="page-article">
+  <div class="breadcrumb">
+    <span class="bc-link" onclick="navigate('home')">홈</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-link" id="art-bc-cat" onclick="navigate('category',currentCat)"></span>
+    <span class="bc-sep">›</span>
+    <span class="bc-current" id="art-bc-title"></span>
+  </div>
+  <div class="article-wrap" id="article-content"></div>
+</div>
+
+<!-- WRITE / EDIT PAGE -->
+<div class="page" id="page-write">
+  <div class="write-wrap">
+    <div class="write-title" id="write-page-title">📝 새 문서 작성</div>
+    <div class="write-subtitle" id="write-page-sub"></div>
+
+    <div class="form-group">
+      <label class="form-label">제목</label>
+      <input class="form-input" id="w-title" type="text" placeholder="문서 제목을 입력하세요">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">요약</label>
+      <textarea class="form-textarea" id="w-excerpt" placeholder="문서 내용을 간략하게 설명하세요 (목록에 표시됩니다)"></textarea>
+      <div class="excerpt-media-list" id="excerpt-media-list"></div>
+      <div class="step-upload-row" style="margin-top:10px">
+        <button class="step-upload-btn" onclick="document.getElementById('excerpt-img-input').click()">🖼️ 이미지 추가</button>
+        <button class="step-upload-btn" onclick="document.getElementById('excerpt-vid-input').click()">🎬 동영상 추가</button>
+        <input type="file" id="excerpt-img-input" accept="image/*" multiple hidden onchange="handleExcerptMedia(this.files)">
+        <input type="file" id="excerpt-vid-input" accept="video/*" multiple hidden onchange="handleExcerptMedia(this.files)">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">단계별 가이드</label>
+      <div class="steps-editor" id="steps-editor"></div>
+      <button class="btn-add-step" onclick="addStep()" style="margin-top:10px">+ 단계 추가</button>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">이미지 첨부</label>
+      <div class="upload-zone" onclick="document.getElementById('img-input').click()">
+        <div class="upload-zone-icon">🖼️</div>
+        <div class="upload-zone-text">클릭하여 이미지 첨부 (JPG, PNG, GIF, WebP)</div>
+      </div>
+      <input type="file" id="img-input" accept="image/*" multiple hidden onchange="handleMediaUpload(this.files)">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">동영상 첨부</label>
+      <div class="upload-zone" onclick="document.getElementById('video-input').click()">
+        <div class="upload-zone-icon">🎬</div>
+        <div class="upload-zone-text">클릭하여 동영상 첨부 (MP4, WebM, MOV)</div>
+      </div>
+      <input type="file" id="video-input" accept="video/*" multiple hidden onchange="handleMediaUpload(this.files)">
+    </div>
+
+    <div class="media-preview-grid" id="media-preview-grid"></div>
+
+    <div class="form-actions" style="margin-top:24px">
+      <button class="btn-cancel" id="btn-write-cancel" onclick="cancelWrite()">취소</button>
+      <button class="btn-submit" onclick="saveArticle()">문서 발행</button>
+    </div>
+  </div>
+</div>
+
+<!-- LOGIN MODAL -->
+<div class="overlay" id="login-overlay">
+  <div class="modal">
+    <div class="modal-emoji">🔐</div>
+    <div class="modal-title">관리자 로그인</div>
+    <div class="modal-sub">문서 작성 및 관리 권한이 필요합니다.</div>
+    <div class="error-msg" id="login-error" style="display:none"></div>
+    <input class="modal-input" id="login-id" type="text" placeholder="아이디" onkeydown="if(event.key==='Enter')doLogin()">
+    <input class="modal-input" id="login-pw" type="password" placeholder="비밀번호" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="btn-modal-login" onclick="doLogin()">로그인</button>
+    <button class="btn-modal-cancel" onclick="closeLoginModal()">취소</button>
+  </div>
+</div>
+
+<!-- DELETE CONFIRM MODAL -->
+<div class="overlay" id="confirm-overlay">
+  <div class="confirm-modal">
+    <div class="confirm-title">문서를 삭제할까요?</div>
+    <div class="confirm-desc">이 작업은 되돌릴 수 없습니다. 해당 문서와 모든 첨부 파일이 영구적으로 삭제됩니다.</div>
+    <div class="confirm-actions">
+      <button class="btn-confirm-cancel" onclick="closeConfirm()">취소</button>
+      <button class="btn-confirm-delete" onclick="confirmDelete()">삭제하기</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>

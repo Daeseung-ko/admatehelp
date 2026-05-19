@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: true }));
    CLOUDINARY_*   있음 → Cloudinary 사용 (Vercel)
    없음           → 로컬 파일 시스템 사용
 ══════════════════════════════════════════════ */
+const IS_VERCEL     = !!process.env.VERCEL;
 const IS_MONGO      = !!process.env.MONGODB_URI;
 const IS_CLOUDINARY = !!(process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY);
 
@@ -117,6 +118,7 @@ async function loadArticles() {
     return doc.data;
   }
   if (!fs.existsSync(DATA_FILE)) {
+    if (IS_VERCEL) return JSON.parse(JSON.stringify(INIT_DATA));
     fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
     fs.writeFileSync(DATA_FILE, JSON.stringify(INIT_DATA, null, 2), 'utf-8');
     return JSON.parse(JSON.stringify(INIT_DATA));
@@ -138,6 +140,9 @@ async function saveArticles(data) {
       { upsert: true }
     );
     return;
+  }
+  if (IS_VERCEL) {
+    throw new Error('Vercel에서는 MONGODB_URI 환경변수 설정 후 저장할 수 있습니다.');
   }
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
 }

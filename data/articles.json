@@ -2,7 +2,7 @@
   "facebook": [
     {
       "title": "Meta 페이지 엑세스 승인 가이드_EN",
-      "excerpt": "[동영상 가이드]",
+      "excerpt": "[Video Guide]",
       "excerptMedia": [
         {
           "url": "/uploads/1779092186417-ljf3-page_guide_en_01.mp4",
@@ -250,45 +250,197 @@
     },
     {
       "id": 1,
-      "title": "Facebook 픽셀 설치 완벽 가이드",
-      "excerpt": "웹사이트에 Facebook 픽셀을 설치하고 전환 이벤트를 추적하는 방법을 단계별로 안내합니다.",
+      "title": "Meta 페이지 파트너 할당 가이드_EN",
+      "excerpt": "[Video Guide]",
       "date": "2025-11-20",
       "views": 3241,
       "media": [],
       "steps": [
         {
-          "text": "Meta Business Suite에 로그인 후 '이벤트 관리자'로 이동합니다.",
-          "media": []
+          "text": "- Select the fan page to assign a partner.",
+          "media": [
+            {
+              "url": "/uploads/1779430661344-kdym-pt_en_01-835x420.JPEG",
+              "name": "pt_en_01-835x420.JPEG",
+              "type": "image",
+              "size": 93110,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "'+' 버튼을 클릭하고 '웹'을 선택합니다.",
-          "media": []
+          "text": "- Click the 'Assign Partner' option on the selected fan page.",
+          "media": [
+            {
+              "url": "/uploads/1779430665890-ae1c-pt_en_02-835x420.JPEG",
+              "name": "pt_en_02-835x420.JPEG",
+              "type": "image",
+              "size": 91619,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "픽셀 코드를 복사해 <head> 태그 사이에 붙여넣습니다.",
-          "media": []
+          "text": "- Click 'Business ID' in the partner assignment popup.",
+          "media": [
+            {
+              "url": "/uploads/1779430673291-4fg7-pt_en_03-835x420.JPEG",
+              "name": "pt_en_03-835x420.JPEG",
+              "type": "image",
+              "size": 67968,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter the Nasmedia Business ID (793587697339145) in the 'Enter partner business ID' field.\n- After entering the Business ID, grant the minimum permissions required for ad operations.\n(Required options: Content, Ads, Insights)\n- After selecting the permissions, click the 'Assign' button.",
+          "media": [
+            {
+              "url": "/uploads/1779430678490-spxc-pt_en_04-835x420.JPEG",
+              "name": "pt_en_04-835x420.JPEG",
+              "type": "image",
+              "size": 105352,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check the 'Partner Assignment Complete' popup.",
+          "media": [
+            {
+              "url": "/uploads/1779430682806-e3yb-pt_en_05-835x420.JPEG",
+              "name": "pt_en_05-835x420.JPEG",
+              "type": "image",
+              "size": 65307,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check the 'Partners' section of the fan page to confirm the assignment was successful.",
+          "media": [
+            {
+              "url": "/uploads/1779430687681-90kt-pt_en_06-835x420.JPEG",
+              "name": "pt_en_06-835x420.JPEG",
+              "type": "image",
+              "size": 88873,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779429298577-3lcz-pt_video_en1.mp4",
+          "name": "pt_video_en1.mp4",
+          "type": "video",
+          "size": 6507233,
+          "width": null,
+          "height": null
         }
       ]
     },
     {
       "id": 2,
-      "title": "맞춤 타겟 생성 및 리타겟팅 설정",
-      "excerpt": "웹사이트 방문자 기반 맞춤 타겟을 만들고 리타겟팅 캠페인을 설정하는 전체 과정입니다.",
+      "title": "Meta 페이지 파트너 할당 가이드_KR",
+      "excerpt": "[동영상 가이드]",
       "date": "2025-11-15",
       "views": 2180,
       "media": [],
       "steps": [
         {
-          "text": "광고 관리자 → 타겟으로 이동합니다.",
-          "media": []
+          "text": "- 파트너 할당을 하려고 하는 팬페이지를 선택합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426297131-biqp-pt_01-835x420.JPEG",
+              "name": "pt_01-835x420.JPEG",
+              "type": "image",
+              "size": 82679,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "'맞춤 타겟 만들기'를 선택합니다.",
-          "media": []
+          "text": "- 선택한 팬페이지에서 '파트너 할당' 옵션을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426301107-9vpf-pt_02-835x420.JPEG",
+              "name": "pt_02-835x420.JPEG",
+              "type": "image",
+              "size": 82042,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "소스를 '웹사이트'로 설정하고 조건을 구성합니다.",
-          "media": []
+          "text": "- 파트너 할당 팝업에서 '비즈니스 ID'를 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426304486-m0o3-pt_03-835x420.JPEG",
+              "name": "pt_03-835x420.JPEG",
+              "type": "image",
+              "size": 61083,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter partner business ID 부분에 나스미디어 비즈니스 ID (793587697339145) 를 입력합니다.\n- 비즈니스 ID 입력 후 광고 운영을 위한 최소한의 권한을 부여합니다\n(콘텐츠, 광고, 인사이트 필수 옵션)\n- 권한 선택 후 '할당' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426308916-xhgq-pt_04-835x420.JPEG",
+              "name": "pt_04-835x420.JPEG",
+              "type": "image",
+              "size": 100437,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너할당 완료 팝업을 확인.",
+          "media": [
+            {
+              "url": "/uploads/1779426315203-q9w7-pt_05-835x420.JPEG",
+              "name": "pt_05-835x420.JPEG",
+              "type": "image",
+              "size": 66860,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 팬페이지의 '파트너' 옵션에서 정상적으로 파트너 할당 되었는지 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426318840-yo3p-pt_06-835x420.JPEG",
+              "name": "pt_06-835x420.JPEG",
+              "type": "image",
+              "size": 84976,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779427186583-7vug-pt_video_kr.mp4",
+          "name": "pt_video_kr.mp4",
+          "type": "video",
+          "size": 5020483,
+          "width": null,
+          "height": null
         }
       ]
     }
@@ -320,25 +472,118 @@
   "twitter": [
     {
       "id": 4,
-      "title": "X Ads 캠페인 유형 선택 가이드",
-      "excerpt": "X(Twitter) 광고의 다양한 캠페인 유형과 목적에 맞는 선택 방법을 안내합니다.",
+      "title": "X 광고계정 연동 가이드_KR",
+      "excerpt": "[동영상 가이드]",
       "date": "2025-11-10",
       "views": 1420,
       "media": [],
       "steps": [
         {
-          "text": "ads.twitter.com에 로그인합니다.",
-          "media": []
+          "text": "- https://ads.x.com/manager/ 로 접속합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437430190-59qt-tw_kr_01-836x420.JPEG",
+              "name": "tw_kr_01-836x420.JPEG",
+              "type": "image",
+              "size": 58663,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "'캠페인 만들기'를 클릭합니다.",
-          "media": []
+          "text": "- 좌측 상단에 프로필 클릭하여 전달 받은 '계정명 또는 ID'를 선택, 검색합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437513875-41wj-tw_kr_02-835x420.JPEG",
+              "name": "tw_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 60855,
+              "width": null,
+              "height": null
+            }
+          ]
         },
         {
-          "text": "목표(인지도, 팔로워, 앱 설치 등)를 선택합니다.",
-          "media": []
+          "text": "- 좌측 하단에 '계정 설정'을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437649715-y6mc-tw_kr_03-835x420.JPEG",
+              "name": "tw_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 60426,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 우측 상단에 '사용자 추가'를 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437674018-fkjr-tw_kr_04-835x420.JPEG",
+              "name": "tw_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 36726,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 기여자 검색란에 '@nas_tw'를 검색하여 선택합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437695730-4l4y-tw_kr_05-835x420.JPEG",
+              "name": "tw_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 43045,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 권한 수준은 'Ad manager'로 설정합니다\n(Ad manager는 프로모션 트윗만 발행 가능하며, Account administrator로 선택 시 오가닉 게시물도 발행 가능)",
+          "media": [
+            {
+              "url": "/uploads/1779437931025-n9zw-tw_kr_06-835x420.JPEG",
+              "name": "tw_kr_06-835x420.JPEG",
+              "type": "image",
+              "size": 40502,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- '프로모션 가능한 게시물을 작성할 수 있습니다' 체크 후 '기여자 추가' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437921115-25jt-tw_kr_07-835x420.JPEG",
+              "name": "tw_kr_07-835x420.JPEG",
+              "type": "image",
+              "size": 38329,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 사용자 추가가 완료되었는지 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437989303-25d1-tw_kr_08-835x420.JPEG",
+              "name": "tw_kr_08-835x420.JPEG",
+              "type": "image",
+              "size": 47708,
+              "width": null,
+              "height": null
+            }
+          ]
         }
-      ]
+      ],
+      "excerptMedia": []
     }
   ],
   "google": [

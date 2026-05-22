@@ -473,7 +473,7 @@
     {
       "id": 4,
       "title": "X 광고계정 연동 가이드_KR",
-      "excerpt": "[동영상 가이드]",
+      "excerpt": "[동영상 가이드]\n- https://ads.x.com/manager/ 로 접속 후 새로 생성된 계정으로 선택 및 검색 후 영상 가이드를 참고해 주세요.",
       "date": "2025-11-10",
       "views": 1420,
       "media": [],
@@ -583,7 +583,16 @@
           ]
         }
       ],
-      "excerptMedia": []
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779439661071-axcx-tw_kr_video.mp4",
+          "name": "tw_kr_video.mp4",
+          "type": "video",
+          "size": 4732702,
+          "width": null,
+          "height": null
+        }
+      ]
     }
   ],
   "google": [

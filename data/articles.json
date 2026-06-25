@@ -1,0 +1,1206 @@
+{
+  "facebook": [
+    {
+      "title": "픽셀 파트너 할당 가이드 예정",
+      "excerpt": "픽셀 파트너 할당 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1782276524435,
+      "date": "2026-06-24"
+    },
+    {
+      "title": "카탈로그 파트너 할당 가이드 예정",
+      "excerpt": "카탈로그 파트너 할당 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1782276506657,
+      "date": "2026-06-24"
+    },
+    {
+      "title": "픽셀 생성 가이드 예정",
+      "excerpt": "픽셀 생성 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1782276462577,
+      "date": "2026-06-24"
+    },
+    {
+      "title": "앱연동 가이드 예정",
+      "excerpt": "앱연동 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1782276449852,
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Meta 페이지 엑세스 승인 가이드_EN",
+      "excerpt": "[Video Guide]",
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779092186417-ljf3-page_guide_en_01.mp4",
+          "name": "page_guide_en_01.mp4",
+          "type": "video",
+          "size": 10827832,
+          "width": null,
+          "height": null
+        }
+      ],
+      "steps": [
+        {
+          "text": "Only users who are the fan page creator or have admin permissions can proceed.\n- Go to the page -> Click 'Settings' under 'Manage Fan Page'.",
+          "media": [
+            {
+              "url": "/uploads/1779093007745-ekr9-page_en_01-878x420.JPEG",
+              "name": "page_en_01-878x420.JPEG",
+              "type": "image",
+              "size": 118382,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Page Settings' in Settings & Privacy.",
+          "media": [
+            {
+              "url": "/uploads/1779093011773-r9nk-page_en_02-878x420.JPEG",
+              "name": "page_en_02-878x420.JPEG",
+              "type": "image",
+              "size": 95795,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Page Access' in Page Settings.",
+          "media": [
+            {
+              "url": "/uploads/1779093016366-bh07-page_en_03-893x420.JPEG",
+              "name": "page_en_03-893x420.JPEG",
+              "type": "image",
+              "size": 108655,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check 'Pending Access Requests' under Partners with Access.\n\n- Click 'Review Request' for Nasmedia.",
+          "media": [
+            {
+              "url": "/uploads/1779093020950-zeyp-page_en_04-878x420.JPEG",
+              "name": "page_en_04-878x420.JPEG",
+              "type": "image",
+              "size": 111505,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Next' on the Page Access Request screen.",
+          "media": [
+            {
+              "url": "/uploads/1779093025754-auah-page_en_05-878x420.JPEG",
+              "name": "page_en_05-878x420.JPEG",
+              "type": "image",
+              "size": 84818,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Approve' (또는 'Accept') on the Page Access Request screen.",
+          "media": [
+            {
+              "url": "/uploads/1779093030470-t834-page_en_06-878x420.JPEG",
+              "name": "page_en_06-878x420.JPEG",
+              "type": "image",
+              "size": 84953,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter your password to grant page access, then click 'Confirm'.",
+          "media": [
+            {
+              "url": "/uploads/1779093035553-c74s-page_en_07-877x420.JPEG",
+              "name": "page_en_07-877x420.JPEG",
+              "type": "image",
+              "size": 72826,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Page access granted.",
+          "media": [
+            {
+              "url": "/uploads/1779093039570-0zk7-page_en_08-878x420.JPEG",
+              "name": "page_en_08-878x420.JPEG",
+              "type": "image",
+              "size": 110917,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "id": 1779092440308,
+      "date": "2026-05-18",
+      "views": 0
+    },
+    {
+      "title": "Meta 페이지 엑세스 승인 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779091175722-3t47-page_guide.mp4",
+          "name": "page_guide.mp4",
+          "type": "video",
+          "size": 8964711,
+          "width": null,
+          "height": null
+        }
+      ],
+      "steps": [
+        {
+          "text": "*팬페이지를 만든 계정 또는 운영자 권한*이 있는 유저만 진행 가능합니다. \n- 페이지접속 -> 팬페이지 관리하기에서 '설정' 을 클릭 합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779087233380-md5j-page_kr_01-835x420.JPEG",
+              "name": "page_kr_01-835x420.JPEG",
+              "type": "image",
+              "size": 109907,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 설정 및 개인정보에서 '페이지 설정' 을 클릭 합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779087262479-gc18-page_kr_02-835x420.JPEG",
+              "name": "page_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 85196,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 페이지 설정에서 '페이지 엑세스' 클릭",
+          "media": [
+            {
+              "url": "/uploads/1779088844356-xv5c-page_kr_03-848x420.JPEG",
+              "name": "page_kr_03-848x420.JPEG",
+              "type": "image",
+              "size": 100300,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 엑세스 권한이 있는 파트너에서 '대기 중인 엑세스 요청'을 확인 합니다\n- Nasmedia '요청 검토' 클릭",
+          "media": [
+            {
+              "url": "/uploads/1779087315981-y8m9-page_kr_04-835x420.JPEG",
+              "name": "page_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 101083,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 페이지 엑세스 요청 '다음'",
+          "media": [
+            {
+              "url": "/uploads/1779087374338-x247-page_kr_05-835x420.JPEG",
+              "name": "page_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 76324,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 페이지 엑세스 요청 '수락'",
+          "media": [
+            {
+              "url": "/uploads/1779087381815-03eu-page_kr_06-835x420.JPEG",
+              "name": "page_kr_06-835x420.JPEG",
+              "type": "image",
+              "size": 78958,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 페이지 권한 부여 비밀번호 입력 후 '확인'",
+          "media": [
+            {
+              "url": "/uploads/1779087385720-trix-page_kr_07-835x420.JPEG",
+              "name": "page_kr_07-835x420.JPEG",
+              "type": "image",
+              "size": 66519,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 페이지 엑세스 완료",
+          "media": [
+            {
+              "url": "/uploads/1779087389247-lbxk-page_kr_08-835x420.JPEG",
+              "name": "page_kr_08-835x420.JPEG",
+              "type": "image",
+              "size": 99855,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "id": 1778720902984,
+      "date": "2026-05-14",
+      "views": 0
+    },
+    {
+      "id": 1,
+      "title": "Meta 페이지 파트너 할당 가이드_EN",
+      "excerpt": "[Video Guide]",
+      "date": "2025-11-20",
+      "views": 3241,
+      "media": [],
+      "steps": [
+        {
+          "text": "- Select the fan page to assign a partner.",
+          "media": [
+            {
+              "url": "/uploads/1779430661344-kdym-pt_en_01-835x420.JPEG",
+              "name": "pt_en_01-835x420.JPEG",
+              "type": "image",
+              "size": 93110,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click the 'Assign Partner' option on the selected fan page.",
+          "media": [
+            {
+              "url": "/uploads/1779430665890-ae1c-pt_en_02-835x420.JPEG",
+              "name": "pt_en_02-835x420.JPEG",
+              "type": "image",
+              "size": 91619,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Business ID' in the partner assignment popup.",
+          "media": [
+            {
+              "url": "/uploads/1779430673291-4fg7-pt_en_03-835x420.JPEG",
+              "name": "pt_en_03-835x420.JPEG",
+              "type": "image",
+              "size": 67968,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter the Nasmedia Business ID (793587697339145) in the 'Enter partner business ID' field.\n- After entering the Business ID, grant the minimum permissions required for ad operations.\n(Required options: Content, Ads, Insights)\n- After selecting the permissions, click the 'Assign' button.",
+          "media": [
+            {
+              "url": "/uploads/1779430678490-spxc-pt_en_04-835x420.JPEG",
+              "name": "pt_en_04-835x420.JPEG",
+              "type": "image",
+              "size": 105352,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check the 'Partner Assignment Complete' popup.",
+          "media": [
+            {
+              "url": "/uploads/1779430682806-e3yb-pt_en_05-835x420.JPEG",
+              "name": "pt_en_05-835x420.JPEG",
+              "type": "image",
+              "size": 65307,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check the 'Partners' section of the fan page to confirm the assignment was successful.",
+          "media": [
+            {
+              "url": "/uploads/1779430687681-90kt-pt_en_06-835x420.JPEG",
+              "name": "pt_en_06-835x420.JPEG",
+              "type": "image",
+              "size": 88873,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779429298577-3lcz-pt_video_en1.mp4",
+          "name": "pt_video_en1.mp4",
+          "type": "video",
+          "size": 6507233,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Meta 페이지 파트너 할당 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "date": "2025-11-15",
+      "views": 2180,
+      "media": [],
+      "steps": [
+        {
+          "text": "- 파트너 할당을 하려고 하는 팬페이지를 선택합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426297131-biqp-pt_01-835x420.JPEG",
+              "name": "pt_01-835x420.JPEG",
+              "type": "image",
+              "size": 82679,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 선택한 팬페이지에서 '파트너 할당' 옵션을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426301107-9vpf-pt_02-835x420.JPEG",
+              "name": "pt_02-835x420.JPEG",
+              "type": "image",
+              "size": 82042,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너 할당 팝업에서 '비즈니스 ID'를 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426304486-m0o3-pt_03-835x420.JPEG",
+              "name": "pt_03-835x420.JPEG",
+              "type": "image",
+              "size": 61083,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter partner business ID 부분에 나스미디어 비즈니스 ID (793587697339145) 를 입력합니다.\n- 비즈니스 ID 입력 후 광고 운영을 위한 최소한의 권한을 부여합니다\n(콘텐츠, 광고, 인사이트 필수 옵션)\n- 권한 선택 후 '할당' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426308916-xhgq-pt_04-835x420.JPEG",
+              "name": "pt_04-835x420.JPEG",
+              "type": "image",
+              "size": 100437,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너할당 완료 팝업을 확인.",
+          "media": [
+            {
+              "url": "/uploads/1779426315203-q9w7-pt_05-835x420.JPEG",
+              "name": "pt_05-835x420.JPEG",
+              "type": "image",
+              "size": 66860,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 팬페이지의 '파트너' 옵션에서 정상적으로 파트너 할당 되었는지 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779426318840-yo3p-pt_06-835x420.JPEG",
+              "name": "pt_06-835x420.JPEG",
+              "type": "image",
+              "size": 84976,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779427186583-7vug-pt_video_kr.mp4",
+          "name": "pt_video_kr.mp4",
+          "type": "video",
+          "size": 5020483,
+          "width": null,
+          "height": null
+        }
+      ]
+    }
+  ],
+  "instagram": [
+    {
+      "title": "브랜디드 콘텐츠 프로세스 가이드 예정",
+      "excerpt": "브랜디드 콘텐츠 프로세스 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1782276563543,
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Instagram 비즈니스 계정 등록 가이드_EN",
+      "excerpt": "[Video Guide]",
+      "excerptMedia": [],
+      "steps": [
+        {
+          "text": "- Go to Business Settings and select 'Instagram Accounts'.",
+          "media": [
+            {
+              "url": "/uploads/1781662067271-gfvi-ins_en_01-835x420.JPEG",
+              "name": "ins_en_01-835x420.JPEG",
+              "type": "image",
+              "size": 65710,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Please click on the '+ Add' button.",
+          "media": [
+            {
+              "url": "/uploads/1781662112552-p0jn-ins_en_02-835x420.JPEG",
+              "name": "ins_en_02-835x420.JPEG",
+              "type": "image",
+              "size": 65254,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click 'Request access to an Instagram account'.",
+          "media": [
+            {
+              "url": "/uploads/1781662137926-sd1y-ins_en_03-835x420.JPEG",
+              "name": "ins_en_03-835x420.JPEG",
+              "type": "image",
+              "size": 88968,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter your Instagram credentials and log in.",
+          "media": [
+            {
+              "url": "/uploads/1781662173638-a5f9-ins_en_04-835x420.JPEG",
+              "name": "ins_en_04-835x420.JPEG",
+              "type": "image",
+              "size": 76546,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Click the 'Continue as xxxx' button.",
+          "media": [
+            {
+              "url": "/uploads/1781662219942-jno9-ins_en_05-835x420.JPEG",
+              "name": "ins_en_05-835x420.JPEG",
+              "type": "image",
+              "size": 77539,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Select 'Business' to switch to a business account.",
+          "media": [
+            {
+              "url": "/uploads/1781662310479-8s32-ins_en_06-835x420.JPEG",
+              "name": "ins_en_06-835x420.JPEG",
+              "type": "image",
+              "size": 73493,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Review the details and click the 'Next' button.",
+          "media": [
+            {
+              "url": "/uploads/1781662316521-00zg-ins_en_07-835x420.JPEG",
+              "name": "ins_en_07-835x420.JPEG",
+              "type": "image",
+              "size": 74937,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Search for or select your account category, then click the 'Done' button.",
+          "media": [
+            {
+              "url": "/uploads/1781662321874-y6o2-ins_en_08-835x420.JPEG",
+              "name": "ins_en_08-835x420.JPEG",
+              "type": "image",
+              "size": 74443,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- When the 'Switch to a professional account?' pop-up appears, click 'Continue'.",
+          "media": [
+            {
+              "url": "/uploads/1781662327343-o4uz-ins_en_09-835x420.JPEG",
+              "name": "ins_en_09-835x420.JPEG",
+              "type": "image",
+              "size": 78188,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter your Instagram business information and click 'Save'.",
+          "media": [
+            {
+              "url": "/uploads/1781662333049-ybh9-ins_en_10-835x420.JPEG",
+              "name": "ins_en_10-835x420.JPEG",
+              "type": "image",
+              "size": 76564,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Once the account conversion is complete, click the 'Done' button.",
+          "media": [
+            {
+              "url": "/uploads/1781662342888-b23b-ins_en_11-835x420.JPEG",
+              "name": "ins_en_11-835x420.JPEG",
+              "type": "image",
+              "size": 72537,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Finally, review your profile and click the 'Done' button once more.",
+          "media": [
+            {
+              "url": "/uploads/1781662350130-3kev-ins_en_12-835x420.JPEG",
+              "name": "ins_en_12-835x420.JPEG",
+              "type": "image",
+              "size": 83520,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Verify that the registered account appears correctly under 'Instagram Accounts'.",
+          "media": [
+            {
+              "url": "/uploads/1781662354715-9mgx-ins_en_13-837x420.JPEG",
+              "name": "ins_en_13-837x420.JPEG",
+              "type": "image",
+              "size": 92638,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "id": 1780983756313,
+      "date": "2026-06-09"
+    },
+    {
+      "title": "Instagram 비즈니스 계정 등록 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "excerptMedia": [
+        {
+          "url": "/uploads/1780983606943-s050-ins_kr_video.mp4",
+          "name": "ins_kr_video.mp4",
+          "type": "video",
+          "size": 16878006,
+          "width": null,
+          "height": null
+        }
+      ],
+      "steps": [
+        {
+          "text": "- 비즈니스 설정에서 'Instagram 계정을 선택합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780900868002-nx7w-ins_kr_01-835x420.JPEG",
+              "name": "ins_kr_01-835x420.JPEG",
+              "type": "image",
+              "size": 62781,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- +추가 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901051010-ffmv-ins_kr_02-835x420.JPEG",
+              "name": "ins_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 62379,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 'Instagram 계정 소유권 요청' 을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901092613-u36b-ins_kr_03-835x420.JPEG",
+              "name": "ins_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 80235,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Instagram 로그인 정보를 입력한 후 로그인 합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901201580-ewmh-ins_kr_04-835x420.JPEG",
+              "name": "ins_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 75093,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 'xxxx님으로 로그인' 버튼을 클릭합니다",
+          "media": [
+            {
+              "url": "/uploads/1780901170560-42wa-ins_kr_05-835x420.JPEG",
+              "name": "ins_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 73637,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 비즈니스 계정 전환을 위해 '비즈니스'를 선택합니다",
+          "media": [
+            {
+              "url": "/uploads/1780901256289-y8al-ins_kr_06-835x420.JPEG",
+              "name": "ins_kr_06-835x420.JPEG",
+              "type": "image",
+              "size": 74042,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 내용 확인 후 '다음' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901310361-hu8z-ins_kr_07-835x420.JPEG",
+              "name": "ins_kr_07-835x420.JPEG",
+              "type": "image",
+              "size": 71947,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 계정의 카테고리를 검색 또는 선택한 후 완료 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901339944-i8cc-ins_kr_08-835x420.JPEG",
+              "name": "ins_kr_08-835x420.JPEG",
+              "type": "image",
+              "size": 71059,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 프로페셔널 계정으로 전환하시겠어요? 팝업창에서 '계속하기'를 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780901369656-99w7-ins_kr_09-835x420.JPEG",
+              "name": "ins_kr_09-835x420.JPEG",
+              "type": "image",
+              "size": 75809,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Instagram 비즈니스 정보를 입력 후 '저장'을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780986655486-c4tj-ins_kr_09_01-835x420.JPEG",
+              "name": "ins_kr_09_01-835x420.JPEG",
+              "type": "image",
+              "size": 73407,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 계정 전환이 완료되었으면 '완료' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780986635888-aqbj-ins_kr_10-835x420.JPEG",
+              "name": "ins_kr_10-835x420.JPEG",
+              "type": "image",
+              "size": 70964,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 마지막으로 프로필 확인 후 한번 더 '완료' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780986624341-ekya-ins_kr_11-835x420.JPEG",
+              "name": "ins_kr_11-835x420.JPEG",
+              "type": "image",
+              "size": 81883,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Instagram 계정에서 등록한 계정이 정상적으로 등록되었음을 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1780986613741-9k6r-ins_kr_12-835x420.JPEG",
+              "name": "ins_kr_12-835x420.JPEG",
+              "type": "image",
+              "size": 91139,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "id": 1780900938345,
+      "date": "2026-06-08"
+    },
+    {
+      "title": "Instagram 팬페이지 연동 가이드_EN",
+      "excerpt": "[Video Guide]",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1779758629814,
+      "date": "2026-05-26",
+      "views": 0
+    },
+    {
+      "title": "Instagram 팬페이지 연동 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1779758612409,
+      "date": "2026-05-26",
+      "views": 0
+    },
+    {
+      "title": "Instagram 파트너 할당 가이드_EN",
+      "excerpt": "[Video Guide]",
+      "excerptMedia": [],
+      "steps": [
+        {
+          "text": "- Click the 'Assign Partners' button on the Instagram Account tab.",
+          "media": [
+            {
+              "url": "/uploads/1782093194557-hnrc-ins_par_en_01-835x420.JPEG",
+              "name": "ins_par_en_01-835x420.JPEG",
+              "type": "image",
+              "size": 94529,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter the Business ID you want to assign partners to in the Partner Business ID field.\n(Nasmedia Business ID: 793587697339145)",
+          "media": [
+            {
+              "url": "/uploads/1782093205904-2ibn-ins_par_en_02-835x420.JPEG",
+              "name": "ins_par_en_02-835x420.JPEG",
+              "type": "image",
+              "size": 92426,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Assign the 'Content', 'Ads', and 'Insights' permissions to run the ads.",
+          "media": [
+            {
+              "url": "/uploads/1782093209924-a62c-ins_par_en_03-835x420.JPEG",
+              "name": "ins_par_en_03-835x420.JPEG",
+              "type": "image",
+              "size": 95995,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Confirm the 'Partner Assigned' pop-up.",
+          "media": [
+            {
+              "url": "/uploads/1782093214945-bf1f-ins_par_en_04-835x420.JPEG",
+              "name": "ins_par_en_04-835x420.JPEG",
+              "type": "image",
+              "size": 68008,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Check if the partner has been successfully assigned.",
+          "media": [
+            {
+              "url": "/uploads/1782093219005-xxl6-ins_par_en_05-835x420.JPEG",
+              "name": "ins_par_en_05-835x420.JPEG",
+              "type": "image",
+              "size": 88993,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "id": 1779758590646,
+      "date": "2026-05-26",
+      "views": 0
+    },
+    {
+      "id": 3,
+      "title": "Instagram 파트너 할당 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "date": "2025-11-18",
+      "views": 1950,
+      "media": [],
+      "steps": [
+        {
+          "text": "- Instagram 계정 탭에서 '파트너 할당' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1782285586066-hif3-ins_par_kr_01-835x420.JPEG",
+              "name": "ins_par_kr_01-835x420.JPEG",
+              "type": "image",
+              "size": 90089,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너 비즈니스 ID에 파트너할당 받을 비즈니스 ID를 입력합니다\n(나스미디어 비즈니스 ID : 793587697339145)",
+          "media": [
+            {
+              "url": "/uploads/1782285593704-uya4-ins_par_kr_02-835x420.JPEG",
+              "name": "ins_par_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 93507,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 광고 진행을 위해 '콘텐츠' , '광고' , '인사이트' 권한을 할당합니다.",
+          "media": [
+            {
+              "url": "/uploads/1782285602616-bdbl-ins_par_kr_03-835x420.JPEG",
+              "name": "ins_par_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 96889,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너할당 완료 팝업 확인",
+          "media": [
+            {
+              "url": "/uploads/1782285611010-kckc-ins_par_kr_04-835x420.JPEG",
+              "name": "ins_par_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 67316,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너에 정상적으로 파트너할당 되었는지 체크",
+          "media": [
+            {
+              "url": "/uploads/1782285616677-0ebp-ins_par_kr_05-835x420.JPEG",
+              "name": "ins_par_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 85299,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": []
+    }
+  ],
+  "twitter": [
+    {
+      "id": 4,
+      "title": "X 광고계정 연동 가이드_KR",
+      "excerpt": "[동영상 가이드]\n- https://ads.x.com/manager/ 로 접속 후 새로 생성된 계정으로 선택 및 검색 후 영상 가이드를 참고해 주세요.",
+      "date": "2025-11-10",
+      "views": 1420,
+      "media": [],
+      "steps": [
+        {
+          "text": "- https://ads.x.com/manager/ 로 접속합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437430190-59qt-tw_kr_01-836x420.JPEG",
+              "name": "tw_kr_01-836x420.JPEG",
+              "type": "image",
+              "size": 58663,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 좌측 상단에 프로필 클릭하여 전달 받은 '계정명 또는 ID'를 선택, 검색합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437513875-41wj-tw_kr_02-835x420.JPEG",
+              "name": "tw_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 60855,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 좌측 하단에 '계정 설정'을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437649715-y6mc-tw_kr_03-835x420.JPEG",
+              "name": "tw_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 60426,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 우측 상단에 '사용자 추가'를 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437674018-fkjr-tw_kr_04-835x420.JPEG",
+              "name": "tw_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 36726,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 기여자 검색란에 '@nas_tw'를 검색하여 선택합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437695730-4l4y-tw_kr_05-835x420.JPEG",
+              "name": "tw_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 43045,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 권한 수준은 'Ad manager'로 설정합니다\n(Ad manager는 프로모션 트윗만 발행 가능하며, Account administrator로 선택 시 오가닉 게시물도 발행 가능)",
+          "media": [
+            {
+              "url": "/uploads/1779437931025-n9zw-tw_kr_06-835x420.JPEG",
+              "name": "tw_kr_06-835x420.JPEG",
+              "type": "image",
+              "size": 40502,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- '프로모션 가능한 게시물을 작성할 수 있습니다' 체크 후 '기여자 추가' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437921115-25jt-tw_kr_07-835x420.JPEG",
+              "name": "tw_kr_07-835x420.JPEG",
+              "type": "image",
+              "size": 38329,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 사용자 추가가 완료되었는지 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1779437989303-25d1-tw_kr_08-835x420.JPEG",
+              "name": "tw_kr_08-835x420.JPEG",
+              "type": "image",
+              "size": 47708,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1779439661071-axcx-tw_kr_video.mp4",
+          "name": "tw_kr_video.mp4",
+          "type": "video",
+          "size": 4732702,
+          "width": null,
+          "height": null
+        }
+      ]
+    }
+  ],
+  "google": [
+    {
+      "id": 5,
+      "title": "Google 검색광고 키워드 전략",
+      "excerpt": "효과적인 키워드 리서치부터 입찰 전략까지, 검색광고 성과를 높이는 방법을 다룹니다.",
+      "date": "2025-11-22",
+      "views": 4100,
+      "media": [],
+      "steps": [
+        {
+          "text": "Google Keyword Planner에서 키워드를 조사합니다.",
+          "media": []
+        },
+        {
+          "text": "매칭 유형(완전일치, 구문일치, 확장일치)을 설정합니다.",
+          "media": []
+        },
+        {
+          "text": "광고 그룹별로 테마에 맞는 키워드를 묶습니다.",
+          "media": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "전환 추적 태그(gtag) 설치 방법",
+      "excerpt": "Google Ads 전환 추적을 설정하고 ROI를 정확하게 측정하는 방법을 단계별로 안내합니다.",
+      "date": "2025-11-08",
+      "views": 2860,
+      "media": [],
+      "steps": [
+        {
+          "text": "Google Ads → 도구 → 전환 측정으로 이동합니다.",
+          "media": []
+        },
+        {
+          "text": "'+' 전환 액션을 만듭니다.",
+          "media": []
+        },
+        {
+          "text": "gtag 스니펫을 웹사이트에 삽입합니다.",
+          "media": []
+        }
+      ]
+    }
+  ]
+}

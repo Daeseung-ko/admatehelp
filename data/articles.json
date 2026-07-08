@@ -1,6 +1,48 @@
 {
   "facebook": [
     {
+      "title": "앱 연동 가이드",
+      "excerpt": "1",
+      "excerptMedia": [],
+      "steps": [
+        {
+          "text": "1",
+          "media": []
+        }
+      ],
+      "media": [],
+      "id": 1783402084351,
+      "date": "2026-07-07"
+    },
+    {
+      "title": "맞춤전환 생성하기 예정",
+      "excerpt": "1",
+      "excerptMedia": [],
+      "steps": [
+        {
+          "text": "1",
+          "media": []
+        }
+      ],
+      "media": [],
+      "id": 1783399679400,
+      "date": "2026-07-07"
+    },
+    {
+      "title": "맞춤타겟 생성하기 예정",
+      "excerpt": "1",
+      "excerptMedia": [],
+      "steps": [
+        {
+          "text": "1",
+          "media": []
+        }
+      ],
+      "media": [],
+      "id": 1783399667071,
+      "date": "2026-07-07"
+    },
+    {
       "title": "픽셀 파트너 할당 가이드 예정",
       "excerpt": "픽셀 파트너 할당 가이드 예정",
       "excerptMedia": [],
@@ -19,8 +61,8 @@
       "date": "2026-06-24"
     },
     {
-      "title": "픽셀 생성 가이드 예정",
-      "excerpt": "픽셀 생성 가이드 예정",
+      "title": "Meta 픽셀 생성 가이드_EN",
+      "excerpt": "[Video Guide]",
       "excerptMedia": [],
       "steps": [],
       "media": [],
@@ -28,10 +70,163 @@
       "date": "2026-06-24"
     },
     {
-      "title": "앱연동 가이드 예정",
-      "excerpt": "앱연동 가이드 예정",
-      "excerptMedia": [],
-      "steps": [],
+      "title": "Meta 픽셀 생성 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "excerptMedia": [
+        {
+          "url": "/uploads/1783477500071-6lxz-meta_pixel_kr.mp4",
+          "name": "meta_pixel_kr.mp4",
+          "type": "video",
+          "size": 14716370,
+          "width": null,
+          "height": null
+        }
+      ],
+      "steps": [
+        {
+          "text": "- 비즈니스 관리자에서 '데이터 세트 및 픽셀'로 이동합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402113010-581z-pixel_kr_01-835x420.JPEG",
+              "name": "pixel_kr_01-835x420.JPEG",
+              "type": "image",
+              "size": 88292,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- + 추가 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402193581-4nvz-pixel_kr_02-834x420.JPEG",
+              "name": "pixel_kr_02-834x420.JPEG",
+              "type": "image",
+              "size": 87855,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 새 데이터 세트 만들기에서 '픽셀 이름'을 설정 후 '만들기' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402213443-4fm6-pixel_kr_03-835x420.JPEG",
+              "name": "pixel_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 87155,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- (선택) 연결할 광고계정을 선택하시거나 파트너할당 예정이면 '다음' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402431819-ohl2-pixel_kr_04-835x420.JPEG",
+              "name": "pixel_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 68512,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 이벤트 관리자로 이동을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402527042-ezmr-pixel_kr_05-835x420.JPEG",
+              "name": "pixel_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 72522,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 픽셀 소스 확인을 위해 'Meta 픽셀 설정' 을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402761953-19yb-pixel_kr_06-830x420.JPEG",
+              "name": "pixel_kr_06-830x420.JPEG",
+              "type": "image",
+              "size": 108448,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- '코드 직접 설치'를 클릭하여 픽셀을 확인합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402832583-b5gi-pixel_kr_07-830x420.JPEG",
+              "name": "pixel_kr_07-830x420.JPEG",
+              "type": "image",
+              "size": 70695,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- '코드 복사'를 클릭 후 메모장 또는 엑셀에 저장합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783402907555-uoe2-pixel_kr_08-830x420.JPEG",
+              "name": "pixel_kr_08-830x420.JPEG",
+              "type": "image",
+              "size": 81647,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- '계속' 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783403010497-l7cy-pixel_kr_09-830x420.JPEG",
+              "name": "pixel_kr_09-830x420.JPEG",
+              "type": "image",
+              "size": 92988,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 완료 버튼을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783403033595-jenb-pixel_kr_10-830x420.JPEG",
+              "name": "pixel_kr_10-830x420.JPEG",
+              "type": "image",
+              "size": 65893,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 픽셀 생성이 완료되었고, 이벤트가 발생하면 데이터가 해당 화면에 수신됩니다.",
+          "media": [
+            {
+              "url": "/uploads/1783403140971-bh8d-pixel_kr_11-830x420.JPEG",
+              "name": "pixel_kr_11-830x420.JPEG",
+              "type": "image",
+              "size": 111149,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
       "media": [],
       "id": 1782276449852,
       "date": "2026-06-24"
@@ -494,7 +689,16 @@
     {
       "title": "Instagram 비즈니스 계정 등록 가이드_EN",
       "excerpt": "[Video Guide]",
-      "excerptMedia": [],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1782711673470-is5h-ins_par_en_video.mp4",
+          "name": "ins_par_en_video.mp4",
+          "type": "video",
+          "size": 14558046,
+          "width": null,
+          "height": null
+        }
+      ],
       "steps": [
         {
           "text": "- Go to Business Settings and select 'Instagram Accounts'.",
@@ -881,7 +1085,16 @@
     {
       "title": "Instagram 파트너 할당 가이드_EN",
       "excerpt": "[Video Guide]",
-      "excerptMedia": [],
+      "excerptMedia": [
+        {
+          "url": "/uploads/1782782284820-cxji-ins_en_part.mp4",
+          "name": "ins_en_part.mp4",
+          "type": "video",
+          "size": 7960693,
+          "width": null,
+          "height": null
+        }
+      ],
       "steps": [
         {
           "text": "- Click the 'Assign Partners' button on the Instagram Account tab.",
@@ -1028,7 +1241,16 @@
           ]
         }
       ],
-      "excerptMedia": []
+      "excerptMedia": [
+        {
+          "url": "/uploads/1782713828047-se2y-ins_kr_part_video.mp4",
+          "name": "ins_kr_part_video.mp4",
+          "type": "video",
+          "size": 7841807,
+          "width": null,
+          "height": null
+        }
+      ]
     }
   ],
   "twitter": [

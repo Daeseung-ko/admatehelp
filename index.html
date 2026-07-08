@@ -157,8 +157,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="step-upload-row" style="margin-top:10px">
         <button class="step-upload-btn" onclick="document.getElementById('excerpt-img-input').click()">🖼️ 이미지 추가</button>
         <button class="step-upload-btn" onclick="document.getElementById('excerpt-vid-input').click()">🎬 동영상 추가</button>
+        <button class="step-upload-btn" onclick="document.getElementById('excerpt-file-input').click()">📎 첨부파일 추가</button>
         <input type="file" id="excerpt-img-input" accept="image/*" multiple hidden onchange="handleExcerptMedia(this.files)">
         <input type="file" id="excerpt-vid-input" accept="video/*" multiple hidden onchange="handleExcerptMedia(this.files)">
+        <input type="file" id="excerpt-file-input" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.rar,.7z,.txt,.csv,.hwp,.hwpx" multiple hidden onchange="handleExcerptMedia(this.files)">
       </div>
     </div>
 
@@ -184,6 +186,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="upload-zone-text">클릭하여 동영상 첨부 (MP4, WebM, MOV)</div>
       </div>
       <input type="file" id="video-input" accept="video/*" multiple hidden onchange="handleMediaUpload(this.files)">
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">첨부파일 첨부</label>
+      <div class="upload-zone" onclick="document.getElementById('file-input').click()">
+        <div class="upload-zone-icon">📎</div>
+        <div class="upload-zone-text">클릭하여 첨부파일 추가 (PDF, DOC, XLS, PPT, ZIP, TXT, HWP 등)</div>
+      </div>
+      <input type="file" id="file-input" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.rar,.7z,.txt,.csv,.hwp,.hwpx" multiple hidden onchange="handleMediaUpload(this.files)">
     </div>
 
     <div class="media-preview-grid" id="media-preview-grid"></div>

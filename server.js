@@ -165,7 +165,9 @@ if (IS_CLOUDINARY) {
     cloudinary,
     params: async (req, file) => ({
       folder:        'admate-help',
-      resource_type: file.mimetype.startsWith('video') ? 'video' : 'image',
+      resource_type: file.mimetype.startsWith('video') ? 'video'
+                     : file.mimetype.startsWith('image') ? 'image'
+                     : 'raw',
       public_id:     `${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
     }),
   });
@@ -196,9 +198,17 @@ if (IS_CLOUDINARY) {
 ══════════════════════════════════════════════ */
 app.use(express.static(__dirname));
 
-/* ══════════════════════════════════════════════
-   API 라우트
-══════════════════════════════════════════════ */
+function cloudinaryResourceType(m) {
+  if (m?.type === 'video') return 'video';
+  if (m?.type === 'file') return 'raw';
+  return 'image';
+}
+
+function cloudinaryResourceTypeFromUrl(url) {
+  if (url.includes('/video/')) return 'video';
+  if (url.includes('/raw/')) return 'raw';
+  return 'image';
+}
 
 /* 프론트엔드가 Cloudinary 직접 업로드할 때 필요한 설정 반환 */
 app.get('/api/config', (req, res) => {
@@ -272,7 +282,7 @@ app.delete('/api/articles/:catId/:id', async (req, res) => {
           if (IS_CLOUDINARY && m.url.includes('cloudinary.com')) {
             const cl    = require('cloudinary').v2;
             const match = m.url.match(/\/upload\/(?:v\d+\/)?(.+?)\.[^.]+$/);
-            if (match) await cl.uploader.destroy(match[1], { resource_type: m.type === 'video' ? 'video' : 'image' });
+            if (match) await cl.uploader.destroy(match[1], { resource_type: cloudinaryResourceType(m) });
           } else if (!IS_MONGO) {
             const fp = path.join(__dirname, m.url.replace(/^\//, ''));
             if (fs.existsSync(fp)) fs.unlinkSync(fp);
@@ -296,10 +306,12 @@ app.delete('/api/articles/:catId/:id', async (req, res) => {
 app.post('/api/upload', uploadMiddleware.single('file'), (req, res) => {
   if (!req.file) return res.status(400).json({ error: '파일 없음' });
   const isVideo = req.file.mimetype.startsWith('video');
+  const isImage = req.file.mimetype.startsWith('image');
+  const type    = isVideo ? 'video' : isImage ? 'image' : 'file';
   const url     = IS_CLOUDINARY
     ? (req.file.path || req.file.secure_url)
     : '/uploads/' + req.file.filename;
-  res.json({ url, name: req.file.originalname, type: isVideo ? 'video' : 'image', size: req.file.size });
+  res.json({ url, name: req.file.originalname, type, size: req.file.size });
 });
 
 /* 미디어 삭제 */
@@ -310,7 +322,7 @@ app.delete('/api/upload', async (req, res) => {
     if (IS_CLOUDINARY && url.includes('cloudinary.com')) {
       const cl    = require('cloudinary').v2;
       const match = url.match(/\/upload\/(?:v\d+\/)?(.+?)\.[^.]+$/);
-      if (match) await cl.uploader.destroy(match[1], { resource_type: url.includes('/video/') ? 'video' : 'image' });
+      if (match) await cl.uploader.destroy(match[1], { resource_type: cloudinaryResourceTypeFromUrl(url) });
     } else if (!IS_MONGO) {
       const fp = path.join(__dirname, url.replace(/^\//, ''));
       if (fs.existsSync(fp)) fs.unlinkSync(fp);

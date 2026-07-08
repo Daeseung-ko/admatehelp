@@ -34,6 +34,30 @@ function nl2br(text) {
     .replace(/\n/g, '<br>');
 }
 
+function escHtml(text) {
+  if (!text) return '';
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function buildMediaPreviewEl(m, pw, ph) {
+  if (m.type === 'image') return `<img src="${m.url}" alt="" style="width:${pw};height:${ph}">`;
+  if (m.type === 'video') return `<video src="${m.url}" muted style="width:${pw};height:${ph}"></video>`;
+  return `<div class="file-attachment-preview"><span class="file-icon">📎</span><span class="file-name">${escHtml(m.name || '첨부파일')}</span></div>`;
+}
+
+function buildArticleMediaEl(m, style) {
+  if (m.type === 'image') return `<img src="${m.url}" alt="" style="${style || ''}">`;
+  if (m.type === 'video') return `<video src="${m.url}" controls style="${style || ''}"></video>`;
+  return `<a class="file-attachment-link" href="${m.url}" download="${escHtml(m.name || '')}" target="_blank" rel="noopener">
+    <span class="file-icon">📎</span>
+    <span class="file-name">${escHtml(m.name || '첨부파일')}</span>
+  </a>`;
+}
+
 /* ─── API ─── */
 async function api(method, url, body) {
   const opts = { method, headers: { 'Content-Type': 'application/json' } };
@@ -237,7 +261,7 @@ function renderArticlePage() {
         const fit = (hasW && hasH) ? 'object-fit:contain;' : '';
         const style = `display:block;${ws}${hs}${fit}border-radius:8px;border:1px solid #e8e6e1;`;
         return `<div class="media-gallery-item">
-          ${m.type === 'image' ? `<img src="${m.url}" alt="" style="${style}">` : `<video src="${m.url}" controls style="${style}"></video>`}
+          ${buildArticleMediaEl(m, style)}
         </div>`;
       }).join('')}
     </div>`;
@@ -250,7 +274,7 @@ function renderArticlePage() {
       <div class="media-section-title">첨부 미디어</div>
       <div class="media-gallery">
         ${art.media.map(m => `<div class="media-gallery-item">
-          ${m.type === 'image' ? `<img src="${m.url}" alt="">` : `<video src="${m.url}" controls></video>`}
+          ${buildArticleMediaEl(m)}
         </div>`).join('')}
       </div>
     </div>`;
@@ -267,7 +291,7 @@ function renderArticlePage() {
         const fit = (hasW && hasH) ? 'object-fit:contain;' : '';
         const style = `display:block;${ws}${hs}${fit}border-radius:8px;border:1px solid #e8e6e1;`;
         return `<div style="display:inline-block;margin-top:14px;margin-right:12px;">
-          ${m.type === 'image' ? `<img src="${m.url}" alt="" style="${style}">` : `<video src="${m.url}" controls style="${style}"></video>`}
+          ${buildArticleMediaEl(m, style)}
         </div>`;
       }).join('');
       return `<div class="step-item">
@@ -375,8 +399,10 @@ function buildStepBlock(s, si) {
     <div class="step-upload-row">
       <button class="step-upload-btn" onclick="document.getElementById('step-img-${si}').click()">🖼️ 이미지 추가</button>
       <button class="step-upload-btn" onclick="document.getElementById('step-vid-${si}').click()">🎬 동영상 추가</button>
+      <button class="step-upload-btn" onclick="document.getElementById('step-file-${si}').click()">📎 첨부파일 추가</button>
       <input type="file" id="step-img-${si}" accept="image/*"  multiple hidden onchange="handleStepMedia(this.files,${si})">
       <input type="file" id="step-vid-${si}" accept="video/*" multiple hidden onchange="handleStepMedia(this.files,${si})">
+      <input type="file" id="step-file-${si}" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.rar,.7z,.txt,.csv,.hwp,.hwpx" multiple hidden onchange="handleStepMedia(this.files,${si})">
     </div>
   </div>`;
 }
@@ -387,15 +413,13 @@ function buildStepMediaItems(si) {
     const ph = m.height ? m.height + 'px' : 'auto';
     return `<div class="step-media-item" id="step-media-${si}-${mi}">
       <div class="step-media-preview">
-        ${m.type === 'image'
-          ? `<img src="${m.url}" alt="" style="width:${pw};height:${ph}">`
-          : `<video src="${m.url}" muted style="width:${pw};height:${ph}"></video>`}
+        ${buildMediaPreviewEl(m, pw, ph)}
       </div>
       <div class="step-media-info">
         <div class="step-media-top">
           <button class="btn-remove-step-media" onclick="removeStepMedia(${si},${mi})">×</button>
         </div>
-        <div class="step-media-size">
+        ${m.type !== 'file' ? `<div class="step-media-size">
           <div class="size-field">
             <label class="size-label">너비 (px)</label>
             <input class="size-input" type="number" min="50" max="1200" placeholder="자동" value="${m.width || ''}"
@@ -410,7 +434,7 @@ function buildStepMediaItems(si) {
               onchange="updateStepSize(${si},${mi},'height',this.value)">
           </div>
           <button class="btn-size-reset" onclick="resetStepSize(${si},${mi})">↺</button>
-        </div>
+        </div>` : ''}
       </div>
     </div>`;
   }).join('');
@@ -436,7 +460,9 @@ function removeStepMedia(si, mi) {
 }
 
 function previewStepSize(si, mi, prop, val) {
-  const tag = wSteps[si].media[mi].type === 'image' ? 'img' : 'video';
+  const m = wSteps[si].media[mi];
+  if (m.type === 'file') return;
+  const tag = m.type === 'image' ? 'img' : 'video';
   const el  = document.querySelector(`#step-media-${si}-${mi} .step-media-preview ${tag}`);
   if (!el) return;
   const num = parseInt(val);
@@ -495,15 +521,13 @@ function buildExcerptMediaItem(m, i) {
   const ph = m.height ? m.height + 'px' : 'auto';
   return `<div class="step-media-item" id="excerpt-media-${i}">
     <div class="step-media-preview">
-      ${m.type === 'image'
-        ? `<img src="${m.url}" alt="" style="width:${pw};height:${ph}">`
-        : `<video src="${m.url}" muted style="width:${pw};height:${ph}"></video>`}
+      ${buildMediaPreviewEl(m, pw, ph)}
     </div>
     <div class="step-media-info">
       <div class="step-media-top">
         <button class="btn-remove-step-media" onclick="removeExcerptMedia(${i})">×</button>
       </div>
-      <div class="step-media-size">
+      ${m.type !== 'file' ? `<div class="step-media-size">
         <div class="size-field">
           <label class="size-label">너비 (px)</label>
           <input class="size-input" type="number" min="50" max="1200" placeholder="자동" value="${m.width || ''}"
@@ -518,7 +542,7 @@ function buildExcerptMediaItem(m, i) {
             onchange="updateExcerptSize(${i},'height',this.value)">
         </div>
         <button class="btn-size-reset" onclick="resetExcerptSize(${i})">↺</button>
-      </div>
+      </div>` : ''}
     </div>
   </div>`;
 }
@@ -531,7 +555,9 @@ function removeExcerptMedia(i) {
 }
 
 function previewExcerptSize(i, prop, val) {
-  const tag = wExcerptMedia[i].type === 'image' ? 'img' : 'video';
+  const m = wExcerptMedia[i];
+  if (m.type === 'file') return;
+  const tag = m.type === 'image' ? 'img' : 'video';
   const el  = document.querySelector(`#excerpt-media-${i} .step-media-preview ${tag}`);
   if (!el) return;
   const num = parseInt(val);
@@ -566,8 +592,8 @@ function renderMediaPreview() {
   const grid = document.getElementById('media-preview-grid');
   if (!wMedia.length) { grid.innerHTML = ''; return; }
   grid.innerHTML = wMedia.map((m, i) => `
-    <div class="media-thumb ${m.type === 'video' ? 'video-thumb' : ''}">
-      ${m.type === 'image' ? `<img src="${m.url}" alt="">` : `<video src="${m.url}" muted></video>`}
+    <div class="media-thumb ${m.type === 'video' ? 'video-thumb' : ''} ${m.type === 'file' ? 'file-thumb' : ''}">
+      ${m.type === 'image' ? `<img src="${m.url}" alt="">` : m.type === 'video' ? `<video src="${m.url}" muted></video>` : `<div class="file-thumb-inner"><span>📎</span><span>${escHtml(m.name || '파일')}</span></div>`}
       <button class="btn-remove-media" onclick="removeMedia(${i})">×</button>
     </div>`).join('');
 }

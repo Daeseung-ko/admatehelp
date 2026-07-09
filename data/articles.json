@@ -1,6 +1,15 @@
 {
   "facebook": [
     {
+      "title": "카탈로그 파트너 할당 가이드 예정",
+      "excerpt": "카탈로그 파트너 할당 가이드 예정",
+      "excerptMedia": [],
+      "steps": [],
+      "media": [],
+      "id": 1783491329520,
+      "date": "2026-07-08"
+    },
+    {
       "title": "앱 연동 가이드",
       "excerpt": "1",
       "excerptMedia": [],
@@ -43,8 +52,8 @@
       "date": "2026-07-07"
     },
     {
-      "title": "픽셀 파트너 할당 가이드 예정",
-      "excerpt": "픽셀 파트너 할당 가이드 예정",
+      "title": "Meta 픽셀 파트너 할당 가이드_EN",
+      "excerpt": "[Video Guide]",
       "excerptMedia": [],
       "steps": [],
       "media": [],
@@ -52,10 +61,98 @@
       "date": "2026-06-24"
     },
     {
-      "title": "카탈로그 파트너 할당 가이드 예정",
-      "excerpt": "카탈로그 파트너 할당 가이드 예정",
-      "excerptMedia": [],
-      "steps": [],
+      "title": "Meta 픽셀 파트너 할당 가이드_KR",
+      "excerpt": "[동영상 가이드]",
+      "excerptMedia": [
+        {
+          "url": "/uploads/1783578050585-m3by-pixel_part_kr_.mp4",
+          "name": "pixel_part_kr_.mp4",
+          "type": "video",
+          "size": 5946465,
+          "width": null,
+          "height": null
+        }
+      ],
+      "steps": [
+        {
+          "text": "- 비즈니스 관리자에서 '데이터 세트 및 픽셀'로 이동합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783495920878-n1zc-pixel_part_kr_01-835x420.JPEG",
+              "name": "pixel_part_kr_01-835x420.JPEG",
+              "type": "image",
+              "size": 92103,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 픽셀 선택 후 '파트너' 에서 '파트너 할당' 옵션을 클릭합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783495958384-vol8-pixel_part_kr_02-835x420.JPEG",
+              "name": "pixel_part_kr_02-835x420.JPEG",
+              "type": "image",
+              "size": 95638,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- Enter partner business ID 부분에 나스미디어 비즈니스 ID (793587697339145) 를 입력합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783496077574-fvaq-pixel_part_kr_03-835x420.JPEG",
+              "name": "pixel_part_kr_03-835x420.JPEG",
+              "type": "image",
+              "size": 82255,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 픽셀 관련 타겟 생성을 위해 '전체 엑세스'까지 권한을 설정한 후 할당합니다.",
+          "media": [
+            {
+              "url": "/uploads/1783496144982-mnnh-pixel_part_kr_04-835x420.JPEG",
+              "name": "pixel_part_kr_04-835x420.JPEG",
+              "type": "image",
+              "size": 81347,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너 할당 완료",
+          "media": [
+            {
+              "url": "/uploads/1783496223240-pbjb-pixel_part_kr_05-835x420.JPEG",
+              "name": "pixel_part_kr_05-835x420.JPEG",
+              "type": "image",
+              "size": 69984,
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        {
+          "text": "- 파트너로 초대되었는지 확인 합니다 (대기중 일 땐 상대방이 수락해야 최종 완료.)",
+          "media": [
+            {
+              "url": "/uploads/1783496245284-r4ch-pixel_part_kr_06-835x420.JPEG",
+              "name": "pixel_part_kr_06-835x420.JPEG",
+              "type": "image",
+              "size": 91820,
+              "width": null,
+              "height": null
+            }
+          ]
+        }
+      ],
       "media": [],
       "id": 1782276506657,
       "date": "2026-06-24"
